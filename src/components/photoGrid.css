@@ -1,0 +1,18 @@
+.photo-grid {
+  margin-top: 0.2rem;
+  margin-left: 0.50rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(28rem, 1fr));
+  grid-row-gap: 0.4rem;
+  align-items: stretch;
+}
+.photo-grid img {
+  max-width: 27rem;
+  max-height: 30rem;
+}
+.photo-grid img:hover {
+  border-style: inset;
+  border-radius: 8%;
+  border-color: #ffdab3;
+  cursor: pointer;
+}

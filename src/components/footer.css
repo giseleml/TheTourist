@@ -1,0 +1,14 @@
+.footer {
+  background-color: #1a2a6c;
+  font-family: 'Offside', cursive;
+  color: #fdbb2d;
+  text-align: center;
+  width: auto;
+  padding-top: 1rem;
+  display: inline-flex;
+  justify-content: space-around;
+  opacity: 0.8;
+}
+.footer img {
+  max-height: 5rem;
+}

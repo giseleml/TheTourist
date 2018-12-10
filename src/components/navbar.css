@@ -1,0 +1,19 @@
+.navbar {
+  background-color: #1a2a6c;
+  text-align: center;
+  width: auto;
+  height: 2rem;
+  padding-top: 1rem;
+  display: inline-flex;
+  justify-content: space-around;
+  opacity: 0.8;
+}
+.navbar a {
+  text-decoration: none;
+  color: #fdbb2d;
+  font-family: 'Offside', cursive;
+}
+.navbar a:hover {
+  font-weight: bold;
+  color: #ff4000;
+}
